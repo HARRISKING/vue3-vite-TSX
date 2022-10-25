@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "@vitejs/plugin-vue-jsx": "2.0.1",
-    "vue": "3.2.25"
+    "vue": "3.2.25",
+    "vue-router": "4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "2.3.0",
