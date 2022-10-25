@@ -1,7 +1,10 @@
-import { defineComponent } from "vue";
-
+import { defineComponent, onMounted } from "vue";
+import styles from "./index.module.less";
 export const Home = defineComponent({
   setup(props, ctx) {
-    return () => <div>执行成功</div>;
+    onMounted(() => {
+      console.log("styles>>>", styles);
+    });
+    return () => <div class={styles.homeBox}>执行成功</div>;
   },
 });
